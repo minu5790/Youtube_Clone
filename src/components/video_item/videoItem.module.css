@@ -2,9 +2,13 @@
   font-size: 1rem;
 }
 .container {
-  width: 50%;
-  margin-bottom: 0.2rem;
   padding: 0.2rem;
+}
+.container.grid {
+  width: 50%;
+}
+.container.list {
+  width: 100%;
 }
 .video {
   width: 100%;
@@ -13,7 +17,6 @@
   align-items: center;
   transition: transform 250ms ease-in;
   border: 1px solid lightgray;
-  box-shadow: 3px 3px 5px 0px rgba(191, 191, 191, 0.53);
   cursor: pointer;
 }
 .video:hover {
