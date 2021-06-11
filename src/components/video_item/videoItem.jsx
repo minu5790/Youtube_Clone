@@ -8,11 +8,11 @@ const VideoItem = memo(
         <>
             <li className={`${styles.container} ${displayType}`} onClick={()=>onVideoClick(video)}>
                 <div className={styles.video}>
-                <img className={styles.thumbnail} src={snippet.thumbnails.medium.url} alt="video thumbnail"/>
-                <div className={styles.metadata}>
-                    <p className={styles.title}>{snippet.title}</p>
-                    <p className={styles.channel}>{snippet.channelTitle}</p>
-                </div>
+                    <img className={styles.thumbnail} src={snippet.thumbnails.medium.url} alt="video thumbnail"/>
+                    <div className={styles.metadata}>
+                        <p className={styles.title}>{snippet.title}</p>
+                        <p className={styles.channel}>{snippet.channelTitle}</p>
+                    </div>
                 </div>
             </li>
         </>
